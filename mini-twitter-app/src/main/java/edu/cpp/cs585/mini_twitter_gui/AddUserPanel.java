@@ -62,18 +62,7 @@ public class AddUserPanel extends ControlPanel {
         initializeAddGroupButtonActionListener();
     }
 
-    /*
-     * Action Listeners
-     */
-
-    /**
-     * Initializes action listener for AddUserButton.  Adds SingleUser with the specified
-     * user ID to the TreePanel if the user ID does not already exist.
-     *
-     * If a SingleUser is selected in the TreePanel, the new SingleUser will be added as
-     * a sibling of the selected User.  If a GroupUser is selected in the TreePanel, the
-     * new SingleUser will be added as a child of the selected User.
-     */
+    
     private void initializeAddUserButtonActionListener() {
         addUserButton.addActionListener(new ActionListener() {
 
