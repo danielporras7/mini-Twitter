@@ -4,9 +4,6 @@ import edu.cpp.cs585.mini_twitter_app.GroupUser;
 import edu.cpp.cs585.mini_twitter_app.Observer;
 import edu.cpp.cs585.mini_twitter_app.User;
 
-import twitterdriver.UserGroupVisitor;
-import twitterdriver.UserLeaf;
-import twitterdriver.GroupContainer;
 
 public class LastUpdatedIDVisitor implements GroupUser {
     String lastUpdatedUser = "No one";
